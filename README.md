@@ -11,5 +11,5 @@ S/W required:-
 To run this Project, just run projectFirst.py file.
 How it is Working?
 -> In saveDetails method first camera is opened and it captures 10 images in different-different ways, after that it maps with haar_cascade file and store output of it in ".yml" file.
--> In checkIn method camera capture your photo and then recognise it using the above saved ".yml" file, if found then it makes your entry in a dictionary where key is your id and value is your current timestamp.
+->In checkIn method camera capture your photo and then recognise it using the above saved ".yml" file, if found then it makes your entry in a dictionary where key is your id and value is your current timestamp.
 -> In checkOut method camera once again capture your photo and find your id using ".yml" file if found using that id it will extract your timestamp value saved in above dictionary and subtract current time, to show how much time you were invloved.
